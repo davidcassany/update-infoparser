@@ -1,0 +1,43 @@
+<updates>
+  <update from="maint-coord@suse.de" status="stable" type="recommended" version="1">
+    <id>Update-ID</id>
+    <title>Recommended update for Elemental</title>
+    <severity>moderate</severity>
+    <release>product release</release>
+    <issued date="1723732838" />
+    <references>
+      <reference href="https://bugzilla.suse.com/show_bug.cgi?id=0000001" id="0000001" title="bugzilla title" type="bugzilla" />
+    </references>
+    <description>This update for elemental fixes the following issues:
+
+</description>
+    <pkglist>
+      <collection>
+        <package name="elemental" epoch="0" version="309" release="6.1" arch="x86_64" src="x86_64/elemental-309-6.1.x86_64.rpm">
+          <filename>elemental-309-6.1.x86_64.rpm</filename>
+        </package>
+      </collection>
+    </pkglist>
+    </update>
+<update from="maint-coord@suse.de" status="stable" type="security" version="1">
+    <id>Security-Update-ID</id>
+    <title>Security update for elemental</title>
+    <severity>important</severity>
+    <release>product release</release>
+    <issued date="1724154426" />
+    <references>
+      <reference href="https://bugzilla.suse.com/show_bug.cgi?id=0000002" id="0000002" title="VUL-0: CVE-2024-00002: elemental: description goes here" type="bugzilla" />
+      <reference href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-00002" id="CVE-2024-00002" title="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-00002" type="cve" />
+    </references>
+    <description>This update for elemental fixes the following issues:
+
+</description>
+    <pkglist>
+      <collection>
+        <package name="elemental-register" epoch="0" version="1.52.0" release="5.1" arch="x86_64" src="x86_64/elemental-register-14-1.52.0-5.1.x86_64.rpm">
+          <filename>elemental-register-14-1.52.0-5.1.x86_64.rpm</filename>
+        </package>
+      </collection>
+    </pkglist>
+    </update>
+</updates>
